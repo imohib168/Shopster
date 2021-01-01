@@ -1,0 +1,49 @@
+.service {
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation: moveService 2s;
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #F72C25;
+}
+
+@keyframes moveService {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.service__payment, .service__track, .service__clock {
+    height: 200px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2D1E2F;
+    box-shadow: 2px 2px 20px #1f1420;
+    padding: 20px;
+}
+
+.service__payment i, .service__track i, .service__clock i {
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation: move 2s;
+}
+
+@keyframes move {
+    from {
+        left: -450%;
+    }
+    to {
+        left: 0;
+    }
+}

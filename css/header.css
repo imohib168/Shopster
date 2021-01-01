@@ -1,0 +1,79 @@
+/* Main Header */
+
+.header {
+    background-color: #2D1E2F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+/* For Logo */
+
+.header__logo {
+    margin-left: 15px;
+}
+
+/* For Seacrh box */
+
+.header__search {
+    border-radius: 4px;
+    background-color: white;
+    width: 70%;
+    overflow: hidden;
+}
+
+.search__content {
+    display: flex;
+    align-items: center;
+}
+
+.search__content input {
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+}
+
+.search__content button {
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+    margin-right: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* For Cart logo */
+
+.header__cartLogoAndButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+    width: 15%;
+}
+
+.btns button {
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 5px 12px;
+    outline: none;
+    border: 2px solid beige;
+    background-color: transparent;
+}
+
+.btns button a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.btns button:hover {
+    border: 2px solid yellow;
+    transition: all 0.5s ease-in-out;
+}

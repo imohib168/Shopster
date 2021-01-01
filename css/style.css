@@ -1,0 +1,27 @@
+/* 
+A9E5BB Celadon
+FCF6B1 Medium Champagne 
+F7B32B Honey Yellow
+F72C25 Red RYB
+2D1E2F Dark Purple
+*/
+
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2D1E2F;
+    overflow-x: hidden;
+}
+
+.conatiner {
+    width: 80%;
+    margin: 0 auto;
+}
