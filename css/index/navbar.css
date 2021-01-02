@@ -11,15 +11,6 @@
     z-index: 1;
 }
 
-@keyframes move {
-    from {
-        left: 100%;
-    }
-    to {
-        left: 0;
-    }
-}
-
 /* Hamburger Icon */
 
 .nabar__hamburger {

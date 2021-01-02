@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+.service-container {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    background-color: #2D1E1F;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+.service-container h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
 .service {
     animation-timing-function: ease-in-out;
     position: relative;
@@ -10,6 +27,7 @@
     border-radius: 10px;
     overflow: hidden;
     color: #F72C25;
+    padding: 20px;
 }
 
 @keyframes moveService {
@@ -29,7 +47,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: #2D1E2F;
-    box-shadow: 2px 2px 20px #1f1420;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
 

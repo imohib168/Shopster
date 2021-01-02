@@ -78,3 +78,9 @@
     border: 2px solid yellow;
     transition: all 0.5s ease-in-out;
 }
+
+::placeholder {
+    color: rgb(179, 177, 177);
+    font-style: italic;
+    font-size: 16px;
+}

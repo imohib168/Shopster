@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/index/navbar.css">
     <link rel="stylesheet" href="css/index/carousel.css">
     <link rel="stylesheet" href="css/index/service.css">
+    <link rel="stylesheet" href="css/index/shopByCategory.css">
 
 </head>
 
@@ -22,13 +23,13 @@
         </div>
         <div class="header__search">
             <div class="search__content">
-                <input type="text">
+                <input type="text" placeholder="Search your Items here...">
                 <button><i class="fa fa-search fa-2x"></i></button>
             </div>
         </div>
         <div class="header__cartLogoAndButtons">
             <div class="btns">
-                <button><a href="#">Login</a></button>
+                <button><a href="login.html">Login</a></button>
                 <button><a href="signup.html">Signup</a></button>
             </div>
             <i class="fa fa-cart-plus fa-2x"></i>
@@ -45,7 +46,7 @@
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="#shop">Shop</a></li>
             </ul>
         </div>
         <div class="navbar__socialAccounts">
@@ -66,13 +67,13 @@
         <div class="carousel__panel" style="background-image: url('images/ElecApp.jpg')">
             <h3>Electronic Appliances</h3>
         </div>
-        <div class="carousel__panel" style="background-image: url('images/food.jpg')">
+        <div class="carousel__panel" style="background-image: url('images/food.jfif')">
             <h3>Food</h3>
         </div>
-        <div class="carousel__panel" style="background-image: url('images/grocery.jpg')">
+        <div class="carousel__panel active" style="background-image: url('images/grocery.jpg')">
             <h3>Grocery Items</h3>
         </div>
-        <div class="carousel__panel active" style="background-image: url('images/kidsFun.jpg')">
+        <div class="carousel__panel" style="background-image: url('images/kidsFun.jpg')">
             <h3>Kids Fun</h3>
         </div>
         <div class="carousel__panel" style="background-image: url('images/menFashion.jpg')">
@@ -81,15 +82,15 @@
         <div class="carousel__panel" style="background-image: url('images/womenFashion.jpg')">
             <h3>Women's Fashion</h3>
         </div>
-        <div class="carousel__panel" style="background-image: url('images/MobAcc.jpg')">
-            <h3>Mobile Accessories</h3>
-        </div>
         <div class="carousel__panel" style="background-image: url('images/smartItems.jpg')">
             <h3>Smart Items</h3>
         </div>
     </div>
 
-    <div class="conatiner">
+    <!-- Track down Services -->
+    <div class="service-container">
+        <h1>Track down Shopster</h1>
+        <div class="underline"></div>
         <div class="service">
             <div class="service__payment">
                 <i class="fa fa-credit-card fa-4x"></i> <br>
@@ -102,6 +103,86 @@
             <div class="service__clock">
                 <i class="fa fa-clock-o fa-4x"></i> <br>
                 <h2>24/7 Customer Service</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop By Category -->
+    <div id="shop" class="shopByCategory-container">
+        <h1>Shop By Category</h1>
+        <div class="underline"></div>
+        <div class="shopByCategory">
+            <div class="shopBCategory__container">
+                <div>
+                    <h3>Book Store</h3>
+                    <img src="./images/books.jpg" alt="Book Images">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima accusamus sapiente
+                        temporibus mollitia nostrum! Accusantium asperiores minus dignissimos recusandae repellat omnis,
+                        in, odio repudiandae, obcaecati repellendus magni maiores expedita?</p>
+                    <button>Explore More</button>
+                </div>
+                <div>
+                    <h3>Gadgets</h3>
+                    <img src="./images/smartItems.jpg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+            </div>
+            <div class="shopBCategory__container">
+                <div>
+                    <h3>Electronic Appliances</h3>
+                    <img src="./images/ElecApp.jpg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+                <div>
+                    <h3>Kids Fun</h3>
+                    <img src="./images/kidsFun.jpg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+            </div>
+            <div class="shopBCategory__container">
+                <div>
+                    <h3>Arts and Crafts</h3>
+                    <img src="./images/artsAndCrafts.jpeg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+                <div>
+                    <h3>Food</h3>
+                    <img src="./images/food.jfif" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+            </div>
+            <div class="shopBCategory__container">
+                <div>
+                    <h3>Men's & Women's Fashion</h3>
+                    <img src="./images/menFashion.jpg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
+                <div>
+                    <h3>Grocery Items</h3>
+                    <img src="./images/grocery.jpg" alt="Book Images">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia similique earum, nobis
+                        quasi voluptas est. Reiciendis maxime, provident eaque veniam sequi ex, voluptates eum
+                        aspernatur porro illo ea architecto!</p>
+                    <button>Explore More</button>
+                </div>
             </div>
         </div>
     </div>

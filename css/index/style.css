@@ -21,7 +21,9 @@ body {
     overflow-x: hidden;
 }
 
-.conatiner {
-    width: 80%;
-    margin: 0 auto;
+.underline {
+    background-color: red;
+    height: 4px;
+    width: 20%;
+    margin: 20px auto;
 }
