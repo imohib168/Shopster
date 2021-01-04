@@ -1,0 +1,101 @@
+.footer {
+    height: 30vh;
+    justify-content: space-around;
+    background-color: #39273b;
+    display: flex;
+    /* align-items: center; */
+}
+
+/* .footer__workWithUs, .footer__help {
+    background-color: white;
+    margin: 10px 0px;
+    width: 24%;
+} */
+
+.footer__brand h2 {
+    color: rgb(133, 133, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+
+.footer__brand div {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer div i {
+    font-size: 20px;
+    margin-right: 12px;
+    margin-top: 2px;
+    height: 34px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer div i:nth-child(1) {
+    border: 2px solid #3b5998;
+    color: #3b5998;
+}
+
+.footer div i:nth-child(1):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #3b5998;
+    color: white;
+}
+
+.footer div i:nth-child(2) {
+    border: 2px solid #3f729b;
+    color: #3f729b;
+}
+
+.footer div i:nth-child(2):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #3f729b;
+    color: #FEDA77;
+}
+
+.footer div i:nth-child(3) {
+    border: 2px solid #00acee;
+    color: #00acee;
+}
+
+.footer div i:nth-child(3):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #00acee;
+    color: white;
+}
+
+/*  */
+
+.footer__becomeAcquainted h2, .footer__workWithUs h2, .footer__help h2 {
+    color: cornflowerblue;
+    font-family: inherit;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+/* .footer div p a */
+
+.footer__becomeAcquainted div p, .footer__workWithUs div p, .footer__help div p {
+    margin: 2px 0px;
+    padding: 2px 0px;
+}
+
+.footer__becomeAcquainted div p a, .footer__workWithUs div p a, .footer__help div p a {
+    text-decoration: none;
+    color: rgb(161, 161, 197);
+}
+
+.footer__becomeAcquainted div p a:hover, .footer__workWithUs div p a:hover, .footer__help div p a:hover {
+    text-decoration: underline;
+}

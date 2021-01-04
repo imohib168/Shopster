@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/index/carousel.css">
     <link rel="stylesheet" href="css/index/service.css">
     <link rel="stylesheet" href="css/index/shopByCategory.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="stylesheet" href="css/index/copyright.css">
 
 </head>
 
@@ -29,7 +31,7 @@
         </div>
         <div class="header__cartLogoAndButtons">
             <div class="btns">
-                <button><a href="login.html">Login</a></button>
+                <button><a id="login">Login</a></button>
                 <button><a href="signup.html">Signup</a></button>
             </div>
             <i class="fa fa-cart-plus fa-2x"></i>
@@ -49,10 +51,8 @@
                 <li><a href="#shop">Shop</a></li>
             </ul>
         </div>
-        <div class="navbar__socialAccounts">
-            <i class="fa fa-facebook fa-1x"></i>
-            <i class="fa fa-instagram fa-1x"></i>
-            <i class="fa fa-twitter fa-1x"></i>
+        <div class="navbar__userAccount">
+            <p id="showUserName"></p>
         </div>
     </div>
 
@@ -187,8 +187,57 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__brand">
+            <h2>Shopster</h2>
+            <div>
+                <i class="fa fa-facebook fa-1x"></i>
+                <i class="fa fa-instagram fa-1x"></i>
+                <i class="fa fa-twitter fa-1x"></i>
+            </div>
+        </div>
+        <div class="footer__becomeAcquainted">
+            <h2>To become acquainted with</h2>
+            <div>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">FAQ</a></p>
+            </div>
+        </div>
+        <div class="footer__workWithUs">
+            <h2>Want to work with us?</h2>
+            <div>
+                <p><a href="#">Sell your product</a></p>
+                <p><a href="#">Broadcast your products</a></p>
+                <p><a href="#">Build Online Store</a></p>
+            </div>
+        </div>
+        <div class="footer__help">
+            <h2>Help</h2>
+            <div>
+                <p><a href="#">Deivery policies</a></p>
+                <p><a href="#">Return & Replacement</a></p>
+                <p><a href="#">Your Orders</a></p>
+                <p><a href="#">About payments</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright footer -->
+    <section class="copyrightSection">
+        <p class="copyright__year"> &copy Copyright 2020 </p>
+        <p class="copyright__allReserved">
+            <span>
+                All right reserved. Powered by the
+            </span>
+            <a href="#">Shopster</a>
+        </p>
+    </section>
+
 
     <!-- Javascript -->
+    <script src="js/index/accountName.js"></script>
     <script src="js/carousel.js"></script>
 
 </body>

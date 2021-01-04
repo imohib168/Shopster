@@ -1,7 +1,6 @@
+// const name = localStorage.getItem('name');
 const em = localStorage.getItem('email');
 const pas = localStorage.getItem('password');
-console.log(em);
-console.log(pas);
 
 const email = document.getElementById("email");
 const password = document.getElementById("password");

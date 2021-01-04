@@ -49,32 +49,19 @@
     transition: all 0.5s ease-in-out;
 }
 
-/* Social Icons */
+/* User Account */
 
-.navbar__socialAccounts {
+.navbar__userAccount {
     display: flex;
     margin-right: 15px;
-    cursor: pointer;
 }
 
-.navbar__socialAccounts i {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 20%;
-    align-items: center;
-    margin: 0px 8px;
-    background-color: #F72C25;
-    color: white;
-    width: 40px;
-    height: 40px;
-}
-
-.navbar__socialAccounts i:hover {
-    background-color: #FCF6B1;
-    color: black;
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
+.navbar__userAccount #showUserName {
+    background-color: #2D1E2F;
+    color: #A9E5BB;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    border-radius: 4px;
 }
 
 /* Active button */

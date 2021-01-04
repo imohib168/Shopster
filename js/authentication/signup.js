@@ -23,6 +23,7 @@ signupButton.addEventListener("click", () => {
         alert("Account already exists.!!");
         location.href = "login.html";
     } else {
+        localStorage.setItem('name', nameValue);
         localStorage.setItem('email', emailValue);
         localStorage.setItem('password', passwordValue);
         alert('Your account has been created');
