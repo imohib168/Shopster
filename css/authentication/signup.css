@@ -27,11 +27,35 @@ body {
 }
 
 .container1 h1 {
+    color: rgb(177, 241, 151);
     margin-bottom: 30px;
 }
 
 .container1 h1 a {
+    color: rgb(8, 224, 188);
     text-decoration: none;
+}
+
+.container1 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 217, 255);
+}
+
+.container h3 span {
+    display: block;
+    margin-top: 10px;
+}
+
+.container1 h3 a {
+    color: rgb(147, 163, 185);
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(49, 63, 102);
+    padding: 5px 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    outline: none;
 }
 
 .container1 button {
@@ -61,6 +85,8 @@ body {
 }
 
 .container2 h2 {
+    font-size: 30px;
+    color: rgb(29, 66, 116);
     margin: 25px 0px 15px 0px;
 }
 
@@ -68,13 +94,61 @@ body {
     margin: 10px 0px;
 }
 
-.social-icons i {
-    margin: 0px 10px;
-    border: 2px solid black;
-    padding: 10px 13px;
-    border-radius: 4px;
+/*  */
+
+.social_icons {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.social_icons i {
+    font-size: 20px;
+    margin: 2px 12px;
+    /* margin-top: 2px; */
+    height: 34px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
+
+.social_icons i:nth-child(1) {
+    border: 2px solid #3b5998;
+    color: #3b5998;
+}
+
+.social_icons i:nth-child(1):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #3b5998;
+    color: white;
+}
+
+.social_icons i:nth-child(2) {
+    border: 2px solid #295c86;
+    color: #295c86;
+}
+
+.social_icons i:nth-child(2):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #3f729b;
+    color: #ffffff;
+}
+
+.social_icons i:nth-child(3) {
+    border: 2px solid #00acee;
+    color: #00acee;
+}
+
+.social_icons i:nth-child(3):hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #00acee;
+    color: white;
+}
+
+/*  */
 
 .form {
     width: 80%;
