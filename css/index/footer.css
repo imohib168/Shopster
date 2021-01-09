@@ -87,15 +87,16 @@
 /* .footer div p a */
 
 .footer__becomeAcquainted div p, .footer__workWithUs div p, .footer__help div p {
-    margin: 2px 0px;
+    margin: 8px 0px;
     padding: 2px 0px;
 }
 
 .footer__becomeAcquainted div p a, .footer__workWithUs div p a, .footer__help div p a {
     text-decoration: none;
-    color: rgb(161, 161, 197);
+    color: rgb(150, 236, 165);
 }
 
 .footer__becomeAcquainted div p a:hover, .footer__workWithUs div p a:hover, .footer__help div p a:hover {
-    text-decoration: underline;
+    color: yellow;
+    transition: all 0.3s;
 }
