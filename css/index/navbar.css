@@ -1,8 +1,8 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    background-color: #F7B32B;
+    background-color: #dbdbdb;
     height: 60px;
     position: sticky;
     top: 0;
@@ -37,7 +37,7 @@
 }
 
 .navbar__items ul li a {
-    color: navy;
+    color: black;
     text-decoration: none;
     padding: 8px 22px;
     border-radius: 5px;
@@ -46,8 +46,8 @@
 }
 
 .navbar__items ul li a:hover {
-    background-color: #2D1E2F;
-    color: #A9E5BB;
+    background-color: #c2c2c2;
+    color: black;
     transition: all 0.5s ease-in-out;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .navbar__userAccount #showUserName {
-    background-color: #2D1E2F;
-    color: #A9E5BB;
+    background-color: #c2c2c2;
+    color: black;
     padding: 12px 35px;
     letter-spacing: 2px;
     border-radius: 4px;
@@ -69,6 +69,6 @@
 /* Active button */
 
 .active {
-    background-color: #2D1E2F;
-    color: #A9E5BB !important;
+    background-color: #c2c2c2;
+    color: black !important;
 }

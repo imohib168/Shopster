@@ -2,8 +2,8 @@
     width: 97vw;
     display: flex;
     margin: 0 auto;
-    /* -webkit-mask-image: linear-gradient(black, transparent); */
-    /* mask-image: linear-gradient(black, transparent); */
+    /* -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent); */
 }
 
 .carousel__panel {

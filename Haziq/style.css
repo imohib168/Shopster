@@ -1,0 +1,215 @@
+/* #c2c2c2
+#cfcfcf
+#dbdbdb
+#e8e8e8
+#f5f5f5 */
+
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #f31906;
+}
+
+.p1 {
+    color: rgb(15, 255, 15);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book_box {
+    height: 450px;
+    border: 0px solid;
+    background-image: url("books/Book_background.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    padding-left: 200px;
+    color: red;
+}
+
+.mobile_box {
+    height: 430px;
+    border: 0px solid;
+    background-image: url("mobile/Mobile_background.jpg");
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 750px;
+    color: red;
+}
+
+.computer_box {
+    height: 430px;
+    border: 0px solid;
+    background-image: url("computer/Computer_background.jpg");
+    background-size: cover;
+    padding-top: 110px;
+    padding-left: 840px;
+    color: red;
+}
+
+.item_box {
+    height: 430px;
+    border: 0px solid;
+    background-image: url("generalItems/Item_background.jpg");
+    background-size: cover;
+    padding-top: 110px;
+    padding-left: 840px;
+    color: red;
+}
+
+.electronic_box {
+    height: 430px;
+    border: 0px solid;
+    background-image: url("electronicAppliances/Electrical_background.jpg");
+    background-size: cover;
+    padding-top: 110px;
+    padding-left: 840px;
+    color: red;
+}
+
+.art_box {
+    height: 290px;
+    border: 0px solid;
+    background-image: url("art&Craft/Art_background.jpg");
+    background-size: cover;
+    padding-top: 270px;
+    padding-left: 840px;
+    color: red;
+}
+
+.batan {
+    display: inline-block;
+    background: #dbdbdb;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.batan:hover {
+    background-color: rgb(209, 205, 203);
+}
+
+.collections {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.collections-container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.container-1 {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.col-4 {
+    margin: 20px;
+    height: 350px;
+    width: 250px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(187, 187, 187, 0.40);
+}
+
+.col-4 a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-box {
+    height: 170px;
+}
+
+.img-box img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.time {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #f16007;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 35px;
+}
+
+.price {
+    color: #FFFFFF;
+    background-color: #556eff;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+
+.cart {
+    position: absolute;
+    bottom: 0px;
+    height: 45px;
+    background-color: #dbdbdb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart a {
+    color: black;
+}
+
+.col-4:hover {
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+    transition: all 0.9s ease-out;
+}
+
+.cart:hover {
+    background-color: #c2c2c2;
+    transition: all 0.3s ease;
+}
+
+.rating .fa {
+    color: rgb(245, 191, 13);
+}

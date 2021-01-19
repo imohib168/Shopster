@@ -1,23 +1,19 @@
 .copyrightSection {
     font-family: sans-serif;
-    background-color: rgb(11, 96, 153);
+    background-color: #c2c2c2;
     text-align: center;
     padding: 5px;
-    color: lightgray;
+    color: black;
     letter-spacing: 1px;
 }
 
 .copyright__year {
     margin-bottom: 5px;
-    font-style: italic;
     font-size: 17px;
 }
 
-.copyright__allReserved span {
-    font-style: italic;
-}
-
 .copyright__allReserved a {
+    font-style: italic;
     text-decoration: none;
-    color: rgb(62, 200, 241);
+    color: rgb(88, 90, 90);
 }

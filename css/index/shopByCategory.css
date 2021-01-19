@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 .shopByCategory-container {
-    background-color: #2c2c2c;
+    /* background-color: #cfcfcf; */
     margin: 30px auto;
     padding: 15px;
     width: 90%;
@@ -10,7 +10,7 @@
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-size: 35px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .shopByCategory {
@@ -29,15 +29,17 @@
 }
 
 .shopBCategory__container div {
-    background-color: rgb(177, 174, 174);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: #dbdbdb;
+    color: rgb(107, 106, 106);
     border-radius: 5px;
     padding: 15px;
-    width: 47%;
+    width: 45%;
     cursor: pointer;
 }
 
 .shopBCategory__container div:hover {
-    box-shadow: 4px 4px 20px black;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease-in-out;
 }
 
@@ -61,7 +63,9 @@
 .shopBCategory__container div button {
     width: 100%;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid gray;
+    font-weight: bold;
+    color: gray;
     outline: none;
     background-color: transparent;
     border-radius: 3px;
@@ -69,7 +73,11 @@
     font-size: 16px;
 }
 
+.shopBCategory__container div button a {
+    text-decoration: none;
+}
+
 .shopBCategory__container div button:hover {
-    background-color: #facb6d;
+    background-color: #e8e8e8;
     transition: all 0.5s ease-in-out;
 }

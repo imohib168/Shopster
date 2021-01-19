@@ -8,7 +8,7 @@ body {
 .container {
     color: white;
     border-radius: 8px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); */
     max-width: 100%;
     width: 1100px;
     height: 70vh;
@@ -17,7 +17,7 @@ body {
 }
 
 .container1 {
-    background-image: linear-gradient(to top right, rgb(30, 98, 143), rgb(0, 150, 150));
+    background: linear-gradient(to top right, #dbdbdb, #c2c2c2);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -27,19 +27,19 @@ body {
 }
 
 .container1 h1 {
-    color: rgb(177, 241, 151);
+    color: rgb(88, 88, 88);
     margin-bottom: 30px;
 }
 
 .container1 h1 a {
-    color: rgb(8, 224, 188);
+    color: rgb(4, 146, 122);
     text-decoration: none;
 }
 
 .container1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    color: rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
 }
 
 .container h3 span {
@@ -48,11 +48,11 @@ body {
 }
 
 .container1 h3 a {
-    color: rgb(147, 163, 185);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     letter-spacing: 2px;
-    background-color: rgb(49, 63, 102);
-    padding: 5px 10px;
+    background-color: #bbbaba;
+    padding: 6px 20px;
     margin-top: 15px;
     text-decoration: none;
     outline: none;
@@ -75,7 +75,7 @@ body {
 }
 
 .container2 {
-    background-image: linear-gradient(to top right, rgb(30, 98, 143), rgb(0, 150, 150));
+    background: linear-gradient(to top right, #dbdbdb, #c2c2c2);
     color: black;
     width: 50%;
     display: flex;
@@ -127,13 +127,13 @@ body {
 }
 
 .social_icons i:nth-child(2) {
-    border: 2px solid #295c86;
-    color: #295c86;
+    border: 2px solid #17a54b;
+    color: #17a54b;
 }
 
 .social_icons i:nth-child(2):hover {
     transition: all 0.5s ease-in-out;
-    background-color: #3f729b;
+    background-color: #17a54b;
     color: #ffffff;
 }
 
@@ -168,12 +168,13 @@ body {
     margin-top: 4px;
     width: 100%;
     padding: 12px 10px;
-    border: 2px solid rgb(255, 177, 177);
-    background-color: #2b739c;
+    border: 2px solid gray;
+    background-color: #e8e8e8;
     border-radius: 6px;
     outline: none;
     font-size: 17px;
-    color: white;
+    color: gray;
+    letter-spacing: 1px;
 }
 
 ::placeholder {
@@ -185,7 +186,7 @@ body {
 }
 
 .container2 button {
-    border: 2px solid black;
+    border: 2px solid gray;
     width: 105%;
     padding: 8px 55px;
     font-size: 20px;
@@ -197,7 +198,7 @@ body {
 }
 
 .container2 button:hover {
-    background-color: rgb(54, 98, 156);
-    color: beige;
+    background-color: #f5f5f5;
+    color: black;
     transition: 0.7s ease-in-out;
 }

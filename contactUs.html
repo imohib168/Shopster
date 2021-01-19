@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/index/style.css">
+    <link rel="stylesheet" href="css/index/contactUs.css">
+</head>
+
+<body>
+    <div class="contactUs">
+        <form class="contactUs__form">
+            <div class="contactUs__formHeader">
+                <p>Contact Us</p>
+                <p>Got a Question? just write a Message and get instant response on your Email.</p>
+            </div>
+            <label for="name">Name</label>
+            <input autocomplete="off" required type="text" name="Name" id="name" placeholder="Name...">
+
+            <label for="email">Email</label>
+            <input autocomplete="off" required type="email" name="Email" id="email" placeholder="Email...">
+
+            <label for="message">Your Query / Message</label>
+            <textarea required name="Message" id="message" cols="30" rows="10"
+                placeholder="Type your Message here..."></textarea>
+
+            <button type="button" id="sendMessage">Send Message</button>
+        </form>
+    </div>
+
+    <script src="./js/contactUs.js"></script>
+</body>
+
+</html>
