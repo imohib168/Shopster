@@ -4,10 +4,6 @@
 	margin: 0px;
 }
 
-body {
-	background-color: gray;
-}
-
 .container {
 	width: 80%;
 	margin: 55px auto;
@@ -28,7 +24,7 @@ body {
 }
 
 .brandContainer div img {
-	background-color: rgb(69, 109, 133);
+	background-color: rgb(213, 215, 216);
 	padding: 10px;
 	height: 100px;
 	width: 270px;

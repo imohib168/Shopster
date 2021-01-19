@@ -4,13 +4,6 @@
     padding: 0px;
 }
 
-body {
-    background-image: linear-gradient(to bottom right, #ffd89b, #19547b);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .category {
     margin: 56px;
 }
