@@ -4,20 +4,62 @@
 <head>
 	<title>Grocery Items</title>
 	<link rel="stylesheet" type="text/css" href="css/groceryItems.css">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../css/index/style.css">
-	<link rel="stylesheet" href="../css/index/navbar.css">
-	<link rel="stylesheet" href="../css/index/copyright.css"> -->
 	<script src="alert.js"></script>
+	<!-- FontAwesome link for Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--  -->
+	<link rel="stylesheet" href="../css/index/style.css">
+	<link rel="stylesheet" href="../css/index/header.css">
+	<link rel="stylesheet" href="../css/index/navbar.css">
+	<link rel="stylesheet" href="../css/index/footer.css">
+	<link rel="stylesheet" href="../css/index/copyright.css">
 </head>
 
 <body>
 
+	<!-- Header -->
+	<header class="header">
+		<div class="header__logo">
+			<h1>Shopster</h1>
+		</div>
+		<div class="header__search">
+			<div class="search__content">
+				<input type="text" placeholder="Search your Items here...">
+				<button><i class="fa fa-search fa-2x"></i></button>
+			</div>
+		</div>
+		<div class="header__cartLogoAndButtons">
+			<div class="btns">
+				<button><a id="login">Login</a></button>
+				<button><a href="signup.html">Signup</a></button>
+			</div>
+			<i class="fa fa-cart-plus fa-2x"></i>
+		</div>
+	</header>
+
+	<!-- Navbar -->
+	<div class="navbar">
+		<div class="nabar__hamburger">
+			<i class="fa fa-bars fa-2x"></i>
+		</div>
+		<div class="navbar__items">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../contactUs.html">Contact</a></li>
+				<li><a href="../index.html" class="active">Shop</a></li>
+			</ul>
+		</div>
+		<div class="navbar__userAccount">
+			<p id="showUserName"></p>
+		</div>
+	</div>
+
 	<div class="image">
 		<img src="groceryItemsImages/pic1.jpg">
 	</div>
-	<div class="header">
-		<h1>Grocery Items</h1>
+	<div class="container">
+		<h1 class="head">Grocery Items</h1>
 		<div class="div-1">
 			<img src="groceryItemsImages/pic2.jpg" height="300px" ; width="200px;">
 			<p>Kitchenware Serving Set <br><br>Rs.1000 </p>
@@ -99,6 +141,65 @@
 			<button class="button" type="button" onClick="addToCart()">ADD TO CART</button>
 		</div>
 	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer__brand">
+			<h2>Shopster</h2>
+			<div>
+				<i class="fa fa-facebook fa-1x"></i>
+				<i class="fa fa-whatsapp fa-1x"></i>
+				<i class="fa fa-twitter fa-1x"></i>
+			</div>
+		</div>
+		<div class="footer__becomeAcquainted">
+			<h2>To become acquainted with</h2>
+			<div>
+				<p><a href="../about.html">About Us</a></p>
+				<p><a href="../contactUs.html">Contact Us</a></p>
+				<p><a href="../Hassan/FAQ.html">FAQ</a></p>
+				<p><a href="../Hassan/Sponsor.html">Sponsors</a></p>
+			</div>
+		</div>
+		<div class="footer__workWithUs">
+			<h2>Want to work with us?</h2>
+			<div>
+				<p><a href="../Hassan/sellOnlineWithShopster.html">Sell your product</a></p>
+				<p><a href="../Hassan/broadcastYourProduct.html">Broadcast your products</a></p>
+				<p><a href="../Hassan/buildOnlineStore.html">Build Online Store</a></p>
+			</div>
+		</div>
+		<div class="footer__help">
+			<h2>Help</h2>
+			<div>
+				<p><a href="../Hassan/deliveryPolicy.html">Delivery policies</a></p>
+				<p><a href="../Hassan/returnAndReplacement.html">Return & Replacement</a></p>
+				<p><a href="../Hassan/yourOrders.html">Your Orders</a></p>
+				<p><a href="../Hassan/aboutPayments.html">About payments</a></p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Back to top -->
+	<div class="backToTop">
+		<a href="#">
+			<i class="fa fa-angle-up fa-4x"></i>
+		</a>
+	</div>
+
+	<!-- Copyright footer -->
+	<section class="copyrightSection">
+		<p class="copyright__year"> &copy Copyright 2020 </p>
+		<p class="copyright__allReserved">
+			<span>
+				All right reserved. Powered by the
+			</span>
+			<a href="#">Shopster</a>
+		</p>
+	</section>
+
+	<script src="../js/index/accountName.js"></script>
+
 </body>
 
 </html>

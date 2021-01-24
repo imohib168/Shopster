@@ -1,8 +1,8 @@
-* {
+/* * {
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
-}
+} */
 
 .image img {
 	object-fit: cover;
@@ -11,7 +11,7 @@
 	background-repeat: no-repeat;
 }
 
-h1 {
+.head {
 	font-family: josefin sans;
 	font-size: 88px;
 	text-align: center;
@@ -37,12 +37,12 @@ h1 {
 	box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
 }
 
-p {
+.div-1 p {
 	text-align: center;
-	font-family: Elephant;
+	/* font-family: Elephant; */
 }
 
-.header {
+.container {
 	padding-top: 20px;
 	padding-left: 05px;
 	padding-right: 15px;

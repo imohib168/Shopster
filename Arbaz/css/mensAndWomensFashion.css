@@ -11,7 +11,7 @@
 	background-repeat: no-repeat;
 }
 
-h1 {
+.head {
 	font-family: josefin sans;
 	font-size: 88px;
 	text-align: center;
@@ -42,7 +42,7 @@ p {
 	font-family: Elephant;
 }
 
-.header {
+.container {
 	padding-top: 20px;
 	padding-left: 05px;
 	padding-right: 15px;
