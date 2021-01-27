@@ -5,18 +5,24 @@
 }
 
 .image img {
-	object-fit: contain;
+	height: 70vh;
+	object-fit: cover;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 60vh;
 }
 
 .head {
 	font-family: josefin sans;
 	font-size: 88px;
 	text-align: center;
-	margin-right: 20px;
+}
+
+.container-div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .div-1 {
@@ -24,7 +30,6 @@
 	border-style: groove;
 	width: 20%;
 	height: 410px;
-	float: left;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
@@ -39,16 +44,19 @@
 	box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
 }
 
-p {
+.div-1 p {
 	text-align: center;
-	font-family: Elephant;
+	font-family: Arial;
+	font-weight: bold;
 }
 
 .container {
-	padding-top: 20px;
+	width: 90%;
+	margin: 20px auto;
+	/* padding-top: 20px;
 	padding-left: 05px;
-	padding-right: 15px;
-	margin-left: 95px;
+	padding-right: 15px; */
+	/* margin-left: 95px; */
 	transition: 1s;
 }
 

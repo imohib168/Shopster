@@ -1,8 +1,8 @@
-/* * {
+* {
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
-} */
+}
 
 .image img {
 	object-fit: cover;
@@ -17,12 +17,18 @@
 	text-align: center;
 }
 
+.container-div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .div-1 {
 	border: 3px solid;
 	border-style: groove;
 	width: 20%;
 	height: 410px;
-	float: left;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
@@ -39,14 +45,17 @@
 
 .div-1 p {
 	text-align: center;
-	/* font-family: Elephant; */
+	font-family: Arial;
+	font-weight: bold;
 }
 
 .container {
-	padding-top: 20px;
+	width: 90%;
+	margin: 20px auto;
+	/* padding-top: 20px;
 	padding-left: 05px;
-	padding-right: 15px;
-	margin-left: 95px;
+	padding-right: 15px; */
+	/* margin-left: 95px; */
 	transition: 1s;
 }
 
