@@ -3,18 +3,18 @@ var showUser = document.getElementById("showUserName");
 
 if (userName) {
     var login = document.getElementById("login");
-    login.innerHTML = "<a>Signout</a>";
+    login.innerHTML = "Signout";
     login.addEventListener('click', () => {
         showUser.innerHTML = ` <strong> Hello, Anonymous User </strong> `;
-        login.innerHTML = "<a>Login</a>";
+        login.innerHTML = "Login"
         login.addEventListener('click', () => {
-            location.href = "../../../login.html"
+            location.href = "login.html"
         })
     })
 } else {
     var login = document.getElementById("login");
     login.addEventListener('click', () => {
-        location.href = "../../../login.html"
+        location.href = "login.html"
     })
 }
 
